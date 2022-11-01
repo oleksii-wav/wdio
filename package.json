@@ -1,0 +1,29 @@
+{
+  "name": "wdio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleksii-wav/wdio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleksii-wav/wdio/issues"
+  },
+  "homepage": "https://github.com/oleksii-wav/wdio#readme",
+  "devDependencies": {
+    "@wdio/cli": "^7.25.4",
+    "@wdio/local-runner": "^7.25.4",
+    "@wdio/mocha-framework": "^7.25.4",
+    "@wdio/spec-reporter": "^7.25.4",
+    "chromedriver": "^107.0.2",
+    "wdio-chromedriver-service": "^8.0.0"
+  }
+}
